@@ -4,7 +4,7 @@ $signatureFolder = Join-Path -Path $signatureFolderRoot -ChildPath "YOURCOMPANY2
 $folderNamePattern = "*YOURCOMPANY2023*"
 $matchingFolders = Get-ChildItem -Path $signatureFolderRoot -Directory -Filter $folderNamePattern
 if ($matchingFolders -eq $null) {
-$PassCode = 'amco%23$asn8%$2mxz'
+$PassCode = 'YOUR PASS CODE'
 # Get the current user's domain and username from 'whoami' command
 $domainUser = whoami
 

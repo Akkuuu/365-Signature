@@ -30,10 +30,10 @@
     }
 
     # Make API call to get user information
-    $Uri = "https://YOUR-FUNCTION-URL/api/AmaconSignatureT?displayName=$($userName)&PassCode=$($PassCode)"
+    $Uri = "https://*YOUR-FUNCTION-URL*/api/*FUNCTIONNAME*?displayName=$($userName)&PassCode=$($PassCode)"
     write-host $Uri
     $Headers = @{
-        "x-functions-key" = "WLOyi08jQvf9YskAQQHAy1ZT83Pr5HyStJucVoC5TG5rAzFuzSti3w=="
+        "x-functions-key" = "***"
     }
     #Puts random interval to decrease load on the function/svr.
     $RandomSeconds = Get-Random -Minimum 1 -Maximum 10

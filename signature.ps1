@@ -134,7 +134,7 @@ $signatureContent = @"YOUR HTML"@
     $FourthValueName = "$($Mail)_signaturehtml"
     $FifthValueName = "$($Mail)_signaturetext"
     $SixthValueName = "$($Mail)_reply_signaturetext"
-    $profileInfo = "HKCU:\Software\Microsoft\Office\16.0\Outlook\Profiles\Outlook\9375CFF0413111d3B88A00104B2A6676\00000002" #Get Profile and change new signature
+    $profileInfo = "HKCU:\Software\Microsoft\Office\16.0\Outlook\Profiles\Outlook\XXX\00000002" #Get Profile and change new signature
     $profileValue = "New Signature"
     $profileReplyValue = "Reply-Forward Signature"
 
